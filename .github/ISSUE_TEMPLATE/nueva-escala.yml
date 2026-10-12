@@ -1,0 +1,27 @@
+name: Proponer una escala
+description: Sugerir un cuestionario o calculadora nuevos.
+title: "[Nueva escala] "
+labels: ["nueva escala"]
+body:
+  - type: input
+    id: escala
+    attributes:
+      label: Nombre de la escala
+    validations:
+      required: true
+  - type: input
+    id: validacion
+    attributes:
+      label: Validación en español
+      description: Referencia de la versión validada y de los puntos de corte.
+    validations:
+      required: true
+  - type: input
+    id: licencia
+    attributes:
+      label: Condiciones de uso
+      description: ¿Es de libre uso, requiere registro o requiere licencia?
+  - type: textarea
+    id: utilidad
+    attributes:
+      label: Utilidad en atención primaria

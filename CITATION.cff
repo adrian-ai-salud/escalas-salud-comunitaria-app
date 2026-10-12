@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Escalas de Salud Comunitaria"
+message: "Si utiliza este software, cítelo con estos metadatos."
+type: software
+authors:
+  - family-names: "Vences Garrido"
+    given-names: "Adrián"
+    orcid: "https://orcid.org/0009-0001-2460-9318"
+repository-code: "https://github.com/adrian-ai-salud/escalas-salud-comunitaria-app"
+url: "https://adrian-ai-salud.github.io/escalas-salud-comunitaria-app/"
+license: MIT
+version: "2.0.0"
+date-released: "2026-10-12"
+keywords:
+  - enfermería familiar y comunitaria
+  - atención primaria
+  - escalas clínicas

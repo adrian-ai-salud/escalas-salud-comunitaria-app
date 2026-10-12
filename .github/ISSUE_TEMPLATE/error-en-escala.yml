@@ -1,0 +1,33 @@
+name: Error en una escala
+description: Una puntuación, un punto de corte o un texto no coincide con la versión validada.
+title: "[Error] "
+labels: ["error clínico"]
+body:
+  - type: input
+    id: escala
+    attributes:
+      label: Escala
+      placeholder: "p. ej., Escala de Lawton y Brody"
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qué ocurre
+      description: Respuestas introducidas, resultado obtenido y resultado esperado.
+    validations:
+      required: true
+  - type: input
+    id: fuente
+    attributes:
+      label: Fuente que lo respalda
+      description: Artículo de validación, guía o documento oficial.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacidad
+    attributes:
+      label: Privacidad
+      options:
+        - label: No incluyo datos que permitan identificar a ningún paciente.
+          required: true
